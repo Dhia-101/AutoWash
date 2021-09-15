@@ -1,6 +1,10 @@
+
+
+
+
 .top-band {
   display: flex;
-  height: 75px;
+  height: 90px;
   justify-content: space-around;
 
 
@@ -8,6 +12,7 @@
     color: #E81C2E;
     letter-spacing: 0.5px;
     text-decoration: none;
+    outline: none;
 
     h1 {
       font-size: 50px;
@@ -46,15 +51,23 @@
         margin: 0 15px;
         & > div:first-child {
           font-size: 18px;
-          font-weight: 600;
+          font-weight: 500;
           margin-bottom: 8px;
         }
         & > div:nth-child(2) {
           font-size: 14px;
         }
       }
+    }
+  }
+}
 
-
+@media screen and (max-width: 992px) {
+  
+  .top-band {
+  
+    .info {
+      display: none;
     }
   }
 }
