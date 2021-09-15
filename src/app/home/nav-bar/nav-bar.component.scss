@@ -1,3 +1,21 @@
 .navbar {
-    height: 90px;
+    height: 95px;
+    background-color: #202C45;
+    color: white;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.custom-button {
+    background-color: #FFFFFF;
+    padding: 12px 30px;
+    border-radius: 25px;
+}
+
+.navbar-nav {
+    margin-left: 80px;
 }
