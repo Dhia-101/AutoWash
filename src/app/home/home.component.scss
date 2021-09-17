@@ -12,8 +12,40 @@ main {
     .slides {
         align-self: center;
         width: 100%;
-        img {
-            width: 100%;
+        
+        .slide {
+            img {
+                width: 100%;
+            }
+            .overlay {
+
+                background-color: rgb(0, 0, 0, 0.12);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                .text {
+                    text-align: center;
+                    text-transform: uppercase; 
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    h3 {
+                        font-weight: 600;
+                        color: #E81C2E;
+                        font-size: 25px;
+                        letter-spacing: 4px;
+                    }
+                    h1 {
+                        color: #FFFFFF;
+                        font-weight: 700;
+                        font-size: 65px;
+                        white-space: nowrap;
+                    }
+                }
+            }
         }
     }
 
