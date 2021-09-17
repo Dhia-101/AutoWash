@@ -8,16 +8,11 @@ main {
     align-self: center;
     position: relative;
     width: 80%;
+    margin-right: 42px;
     .slides {
         align-self: center;
-        overflow-x: hidden;
-        white-space: nowrap;
         width: 100%;
-        
-        .slide {
-            display: inline-block;
-            height: 70%;
-            object-fit: cover;
+        img {
             width: 100%;
         }
     }
@@ -62,14 +57,4 @@ main {
     .left-arrow {
         left: 10px;
     }
-}
-
-.slide:first-child {
-    position: relative;
-    left: -200px;
-}
-
-.slide:nth-child(2) {
-    position: relative;
-    left: -200px;
 }

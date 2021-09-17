@@ -2,22 +2,15 @@
     <app-top-info-band></app-top-info-band>
     <app-nav-bar></app-nav-bar>
     <div class="carousel-box">
-        <div class="control left-arrow">
+        <div class="control left-arrow" (click)="previousSlide()">
             <i class="fas fa-angle-left"></i>
         </div>
         <div class="slides">
-            <div class="slide">
-                <img src="assets/img/carousel-1.jpg" alt="">
-            </div>
-            <div class="slide">
-                <img src="assets/img/carousel-2.jpg" alt="">
-            </div>
-            <div class="slide">
-                <img src="assets/img/carousel-3.jpg" alt="">
+            <div class="slide" *ngFor="let slide of slides; let i = index">
+                <img [src]="slide.src" *ngIf="currentSlide == i">
             </div>
         </div>
-
-        <div class="control right-arrow">
+        <div class="control right-arrow" (click)="nextSlide()">
             <i class="fas fa-angle-right"></i>
         </div>
     </div>
