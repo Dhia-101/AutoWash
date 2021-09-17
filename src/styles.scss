@@ -8,10 +8,18 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-img{
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+button{
   -khtml-user-select: none;
   -o-user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
 }
+

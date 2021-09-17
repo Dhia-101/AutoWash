@@ -30,8 +30,10 @@ main {
                     text-transform: uppercase; 
                     position: absolute;
                     top: 50%;
+                    z-index: 2;
                     left: 50%;
                     transform: translate(-50%, -50%);
+                    color: #FFFFFF;
                     h3 {
                         font-weight: 600;
                         color: #E81C2E;
@@ -39,15 +41,40 @@ main {
                         letter-spacing: 4px;
                     }
                     h1 {
-                        color: #FFFFFF;
                         font-weight: 700;
                         font-size: 65px;
                         white-space: nowrap;
                     }
+                    p{
+                        max-width: 70%;
+                        position: relative;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        font-size: 16px;
+                    }
+                    button {
+                        background-color: #E81C2E;
+                        color: #FFF;
+                        padding: 12px 30px;
+                        border-radius: 25px;
+                        margin-right: 0;
+                        transition: color ease-in 0.15s, background-color ease-in 0.15s;
+                        border: none;
+                        margin: auto;
+                        width: 25%;
+                    }
+                    
+                    .custom-button:hover {
+                        background-color: #202C45;
+                        color: #E81C2E;
+                    }
+                    
                 }
             }
         }
     }
+
+    
 
     .control {
         background-color: rgb(0, 0, 0, 0.3);
