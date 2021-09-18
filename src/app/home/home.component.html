@@ -2,6 +2,7 @@
     <app-top-info-band></app-top-info-band>
     <app-nav-bar></app-nav-bar>
     <carousel></carousel>
+    <!-- about section to refactor -->
     <section class="about">
         <img src="assets/img/about.jpg" alt="">
         <div class="content">
@@ -15,12 +16,29 @@
                 Aliquam nec magna eget velit luctus dictum
             </p>
             <ul>
-                <li>Seats washing</li>
-                <li>Vacuum cleaning</li>
-                <li>Interior wet cleaning</li>
-                <li>Window wiping</li>
+                <li>
+                    <i class="far fa-check-circle"></i>
+                    Seats washing
+                </li>
+                <li>
+                    <i class="far fa-check-circle"></i>
+                    Vacuum cleaning
+                </li>
+                <li>
+                    <i class="far fa-check-circle"></i>
+                    Interior wet cleaning
+                </li>
+                <li>
+                    <i class="far fa-check-circle"></i>
+                    Window wiping
+                </li>
             </ul>
-            <button class="custom-button" type="submit">Explore More</button>
+            <app-button 
+            [defaultBackgroundColor]="'#E81C2E'" [animatedBackgroundColor]="'#202C45'"
+            [defaultTextColor]="'#FFFFFF'" [animatedTextColor]="'#E81C2E'"    
+        >
+        Learn More</app-button>
         </div>
     </section>
+    <app-button></app-button>
 </main>

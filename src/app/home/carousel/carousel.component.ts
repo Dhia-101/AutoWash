@@ -15,8 +15,6 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class CarouselComponent implements OnInit {
-// To FIX: animations not working
-
 
   slides = [
     { 
@@ -28,14 +26,14 @@ export class CarouselComponent implements OnInit {
     { 
       src: 'assets/img/carousel-2.jpg',
       serviceName: 'Washing & Detailing',
-      promotionText: 'Keep your Car Newer',
-      text: 'Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac'
+      promotionText: 'Quality Service For You',
+      text: 'Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis orci sodales'
     },
     { 
       src: 'assets/img/carousel-3.jpg',
       serviceName: 'Washing & Detailing',
-      promotionText: 'Keep your Car Newer',
-      text: 'Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac'
+      promotionText: 'Exterior & Interior Washing',
+      text: 'Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam'
     }
   ]
 

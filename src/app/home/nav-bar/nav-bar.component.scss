@@ -21,18 +21,9 @@
     color: #E81C2E;
 }
 
-.custom-button {
-    background-color: #FFFFFF;
-    padding: 12px 30px;
-    border-radius: 25px;
-    margin-right: 195px;
-    transition: color ease-in 0.15s, background-color ease-in 0.15s;
-    border: none;
-}
 
-.custom-button:hover {
-    background-color: #E81C2E;
-    color: #FFFFFF;
+app-button {
+    margin-right: 195px;
 }
 
 .navbar-nav {
@@ -48,8 +39,11 @@ button.navbar-toggler {
     margin-left: 55%;
 }
 
+
+// app button code to clean and test
+
 @media screen and (max-width: 1399px) {
-    .custom-button {
+    app-button {
         margin-right: 100px;
     }
 
@@ -63,7 +57,7 @@ button.navbar-toggler {
         margin-left: 0px;
     }    
 
-    .custom-button {
+    app-button {
         margin-right: 50px;
     }
 
