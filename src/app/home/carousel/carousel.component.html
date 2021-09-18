@@ -3,10 +3,10 @@
         <i class="fas fa-angle-left"></i>
     </div>
     <div class="slides">
-        <div class="slide" *ngFor="let slide of slides; let i = index">
-                <img [src]="slide.src" *ngIf="currentSlide == i"  style="display: block;">
+        <div class="slide" *ngFor="let slide of slides; let i = index" >
+                <img [src]="slide.src" *ngIf="currentSlide == i"  style="display: block;" @carouselAnimation>
                 <div class="overlay">
-                    <div class="text" *ngIf="currentSlide == i">
+                    <div class="text" *ngIf="currentSlide == i" @carouselAnimation>
                         <h3 class="service-name">
                             {{ slide.serviceName }}
                         </h3>
@@ -21,7 +21,7 @@
                 </div>
         </div>
     </div>
-        <div class="control right-arrow" (click)="nextSlide()">
+        <div class="control right-arrow" (click)="nextSlide()" >
         <i class="fas fa-angle-right"></i>
     </div>
 </div>

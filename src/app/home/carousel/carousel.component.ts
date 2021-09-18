@@ -4,7 +4,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.scss', './carousel.component.queries.scss']
+  styleUrls: ['./carousel.component.scss', './carousel.component.queries.scss'],
+  animations: [
+    trigger('carouselAnimation', [
+      transition('void => *', [
+        style({ opacity: 0 }),
+        animate('500ms', style({ opacity: 1 }))
+      ])
+    ])
+  ]
 })
 export class CarouselComponent implements OnInit {
 // To FIX: animations not working

@@ -8,6 +8,8 @@ import { TopInfoBandComponent } from './home/top-info-band/top-info-band.compone
 import { NavBarComponent } from './home/nav-bar/nav-bar.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { CarouselComponent } from './home/carousel/carousel.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
