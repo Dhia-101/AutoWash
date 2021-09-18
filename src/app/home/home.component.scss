@@ -5,3 +5,31 @@ main {
 }
 
 
+.about {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 20px;
+        :first-child {
+            text-transform: uppercase;
+            color: #E81C2E;
+            font-weight: 700;
+            letter-spacing: 4px;
+            padding-bottom: 4px;
+            margin-bottom: 5px;
+            span {
+                border-bottom: #E81C2E 2px solid;
+            }
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 43px;
+        }
+    }
+}

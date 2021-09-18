@@ -4,25 +4,24 @@
     </div>
     <div class="slides">
         <div class="slide" *ngFor="let slide of slides; let i = index">
-            <img [src]="slide.src" *ngIf="currentSlide == i">
-            <div class="overlay">
-
-                <div class="text" *ngIf="currentSlide == i">
-                    <h3 class="service-name">
-                        {{ slide.serviceName }}
-                    </h3>
-                    <h1>
-                        {{ slide.promotionText }}
-                    </h1>
-                    <p>
-                        {{ slide.text }}
-                    </p>
-                    <button class="custom-button d-none d-lg-block" type="submit">Explore More</button>
+                <img [src]="slide.src" *ngIf="currentSlide == i"  style="display: block;">
+                <div class="overlay">
+                    <div class="text" *ngIf="currentSlide == i">
+                        <h3 class="service-name">
+                            {{ slide.serviceName }}
+                        </h3>
+                        <h1>
+                            {{ slide.promotionText }}
+                        </h1>
+                        <p>
+                            {{ slide.text }}
+                        </p>
+                        <button class="custom-button d-none d-lg-block" type="submit">Explore More</button>
+                    </div>
                 </div>
-            </div>
         </div>
     </div>
-    <div class="control right-arrow" (click)="nextSlide()">
+        <div class="control right-arrow" (click)="nextSlide()">
         <i class="fas fa-angle-right"></i>
     </div>
 </div>
