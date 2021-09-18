@@ -1,4 +1,6 @@
 <button class="custom-button" 
     [style.background-color]="backgroundColor" (mouseover)="backgroundColor=animatedBackgroundColor" (mouseout)="backgroundColor=defaultBackgroundColor"
     [style.color]="textColor" (mouseover)="textColor=animatedTextColor" (mouseout)="textColor=defaultTextColor"
-type="submit">Explore More</button>
+type="submit">
+    <ng-content></ng-content>
+</button>

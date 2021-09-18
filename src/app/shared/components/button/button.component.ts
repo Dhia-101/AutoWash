@@ -9,18 +9,18 @@ export class ButtonComponent implements OnInit {
 
   @Input() defaultBackgroundColor = '#FFFFFF';
   @Input() animatedBackgroundColor = '#E81C2E';
-  backgroundColor: String;
+  backgroundColor: String = this.defaultBackgroundColor ;
 
   @Input() defaultTextColor = '#202C45';
   @Input() animatedTextColor = '#FFFFFF';
-  textColor: String;
+  textColor = this.defaultTextColor;
 
-  constructor() { 
-    this.backgroundColor = this.defaultBackgroundColor;
-    this.textColor = this.defaultTextColor;
-  }
+  constructor() {   }
 
   ngOnInit(): void {
+    // second initilization in this point of lifecycle in case there is input
+    this.backgroundColor = this.defaultBackgroundColor;
+    this.textColor = this.defaultTextColor;
   }
 
 }
