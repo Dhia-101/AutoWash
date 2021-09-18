@@ -71,7 +71,6 @@
         }
     }
 
-    
 
     .control {
         background-color: rgb(0, 0, 0, 0.3);
@@ -112,5 +111,13 @@
 
     .left-arrow {
         left: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1399px) {
+    .carousel-box {
+        width: 100%;
+        right: 0;
     }
 }
