@@ -61,3 +61,32 @@
         }
     }   
 }
+
+@media screen and (max-width: 575px) {
+    .carousel-box {
+        .slides {          
+            .slide {
+                .overlay {
+                    .text {
+                        h3 {
+                            font-size: 16px;
+                            margin-bottom: 3px;
+                        }
+                        h1 {
+                            font-size: 30px;
+                            margin-bottom: 5px;
+                        }
+                        p{
+                            font-size: 10px;
+                            max-width: 90%;
+                        }
+                        button {
+                            font-size: 12px;
+                            width: 45%;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}

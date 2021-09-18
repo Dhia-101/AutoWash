@@ -48,6 +48,7 @@
                         left: 50%;
                         transform: translateX(-50%);
                         font-size: 16px;
+                      
                     }
                     button {
                         background-color: #E81C2E;
@@ -115,66 +116,4 @@
 }
 
 
-@media screen and (max-width: 1399px) {
-    .carousel-box {
-        width: 100%;
-        right: 0;
-        
-    }
-}
 
-@media screen and (max-width: 991px) {
-    .carousel-box {
-        width: 100%;
-        right: 0;
-        .slides {          
-            .slide {
-                .overlay {
-                    .text {
-                        h3 {
-                            font-size: 22px;
-                        }
-                        h1 {
-                            font-size: 55px;
-                        }
-                        p{
-                            font-size: 14px;
-                        }
-                        button {
-                            font-size: 14px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    
-}
-
-@media screen and (max-width: 991px) {
-    .carousel-box {
-        width: 100%;
-        right: 0;
-        .slides {          
-            .slide {
-                .overlay {
-                    .text {
-                        h3 {
-                            font-size: 22px;
-                        }
-                        h1 {
-                            font-size: 55px;
-                        }
-                        p{
-                            font-size: 14px;
-                        }
-                        button {
-                            font-size: 14px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    
-}
