@@ -31,5 +31,33 @@
             }
         }
     }
-    
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-box {
+        .slides {          
+            .slide {
+                .overlay {
+                    .text {
+                        h3 {
+                            font-size: 18px;
+                            letter-spacing: 3px;
+                            margin-bottom: 5px;
+                        }
+                        h1 {
+                            font-size: 43px;
+                            margin-bottom: 5px;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                        button {
+                            font-size: 14px;
+                            width: 35%;
+                        }
+                    }
+                }
+            }
+        }
+    }   
 }
