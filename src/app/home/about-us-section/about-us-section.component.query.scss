@@ -1,25 +1,97 @@
 @media screen and (max-width: 1199px) {
     .about {
-        display: flex;
-        justify-content: center;
-        margin: 80px 0;
-    
+      position: relative;
+      right: 2%;
         img {
-            border-radius: 50px;
-            
+            width: 42%;
         }
-    
+      .content {
+          width: 42%;
+      }
     }
 }
 
 @media screen and (max-width: 991px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 70%;
+      margin-bottom: 50px;
+    }
+    .content {
+      width: 70%;
+      margin-left: 0;
 
+      .text {
+        //font-size: 18px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 20px;
+        i {
+          color: #E81C2E;
+          margin-right: 7px;
+        }
+      }
+      button {
+        background-color: #E81C2E;
+        color: #FFF;
+        padding: 12px 30px;
+        border-radius: 25px;
+        margin-right: 0;
+        transition: color ease-in 0.15s, background-color ease-in 0.15s;
+        border: none;
+
+      }
+
+    }
+
+  }
 }
 
 @media screen and (max-width: 767px) {
-  
+  .about {
+    margin: 50px 0;
+
+    img {
+      width: 80%;
+
+    }
+    .content {
+      width: 80%;
+
+      h2 {
+        font-size: 35px;
+      }
+
+      .text {
+        font-size: 14px;
+      }
+      ul {
+        font-size: 14px;
+      }
+      app-button  {
+        font-size: 14px;
+
+      }
+
+    }
+
+  }
+
 }
 
 @media screen and (max-width: 575px) {
+  .about {
+    .content {
+
+      h2 {
+        font-size: 30px;
+      }
+    }
+
+  }
 
 }

@@ -6,7 +6,7 @@
     .slides {
         align-self: center;
         width: 100%;
-        
+
         .slide {
             .leave {
                 opacity: 1;
@@ -24,7 +24,7 @@
                 left: 0;
                 .text {
                     text-align: center;
-                    text-transform: uppercase; 
+                    text-transform: uppercase;
                     position: absolute;
                     top: 50%;
                     z-index: 2;
@@ -48,7 +48,7 @@
                         left: 50%;
                         transform: translateX(-50%);
                         font-size: 16px;
-                      
+
                     }
                     button {
                         background-color: #E81C2E;
@@ -61,12 +61,12 @@
                         margin: auto;
                         width: 25%;
                     }
-                    
+
                     .custom-button:hover {
                         background-color: #202C45;
                         color: #E81C2E;
                     }
-                    
+
                 }
             }
         }

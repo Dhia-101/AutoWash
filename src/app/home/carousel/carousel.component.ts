@@ -15,27 +15,27 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class CarouselComponent implements OnInit {
-
+  // TODO: add & fix animations fade out
   slides = [
-    { 
+    {
       src: 'assets/img/carousel-1.jpg',
       serviceName: 'Washing & Detailing',
       promotionText: 'Keep your Car Newer',
       text: 'Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac'
     },
-    { 
+    {
       src: 'assets/img/carousel-2.jpg',
       serviceName: 'Washing & Detailing',
       promotionText: 'Quality Service For You',
       text: 'Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis orci sodales'
     },
-    { 
+    {
       src: 'assets/img/carousel-3.jpg',
       serviceName: 'Washing & Detailing',
       promotionText: 'Exterior & Interior Washing',
       text: 'Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam'
     }
-  ]
+  ];
 
   currentSlide = 0;
 
