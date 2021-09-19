@@ -6,6 +6,17 @@ body {
   margin: 0;
 }
 
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-size: 75px;
+
+}
+
+i {
+  background: linear-gradient(0deg, rgba(32,44,69,1) 0%, rgba(232,28,46,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }

@@ -30,6 +30,15 @@ section {
     justify-content: center;
     justify-items: center;
     align-items: center;
+    text-align: center;
+    margin: 50px 0;
+    gap: 1%;
+    .grid-item {
+      i{
+        font-size: 75px;
+
+      }
+    }
 
   }
 }
