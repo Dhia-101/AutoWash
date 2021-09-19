@@ -4,9 +4,23 @@ section {
   align-items: center;
 
   > :first-child {
+    color: #E81C2E;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    &::after {
+      content: " ";
+      width: 45%;
+      margin: 1px auto;
+      display: block;
+      border: 1px solid #E81C2E;
+    }
+  }
 
-
-
+  h2 {
+    font-weight: 700;
+    font-size: 45px;
   }
 
 
