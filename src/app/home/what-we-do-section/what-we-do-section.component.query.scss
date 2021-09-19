@@ -1,0 +1,39 @@
+@media screen and (max-width: 1199px) {
+  section {
+    h2 {
+      font-size: 35px;
+    }
+
+
+    .grid-container {
+      .grid-item {
+        i{
+          font-size: 75px;
+        }
+        h3 {
+          margin: 8px 0;
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+
+    }
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+}
+
+@media screen and (max-width: 575px) {
+
+
+}
