@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopInfoBandComponent implements OnInit {
 
+  // TODO: fix icons color in this section, about us section, and carousel icons
   constructor() { }
 
   ngOnInit(): void {
