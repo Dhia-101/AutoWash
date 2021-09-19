@@ -11,6 +11,7 @@ import { CarouselComponent } from './home/carousel/carousel.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { SharedModule } from './shared/shared.module';
 import { AboutUsSectionComponent } from './home/about-us-section/about-us-section.component';
+import { WhatWeDoSectionComponent } from './home/what-we-do-section/what-we-do-section.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutUsSectionComponent } from './home/about-us-section/about-us-sectio
     TopInfoBandComponent,
     NavBarComponent,
     CarouselComponent,
-    AboutUsSectionComponent
+    AboutUsSectionComponent,
+    WhatWeDoSectionComponent
   ],
   imports: [
     BrowserModule,

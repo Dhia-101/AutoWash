@@ -1,0 +1,21 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > :first-child {
+
+
+
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template: repeat(2, 200px) / repeat(4, 23%);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+  }
+}

@@ -23,29 +23,6 @@
       width: 70%;
       margin-left: 0;
 
-      .text {
-        //font-size: 18px;
-      }
-      ul {
-        list-style-type: none;
-        padding: 0;
-        margin-bottom: 20px;
-        i {
-          color: #E81C2E;
-          margin-right: 7px;
-        }
-      }
-      button {
-        background-color: #E81C2E;
-        color: #FFF;
-        padding: 12px 30px;
-        border-radius: 25px;
-        margin-right: 0;
-        transition: color ease-in 0.15s, background-color ease-in 0.15s;
-        border: none;
-
-      }
-
     }
 
   }
@@ -85,7 +62,12 @@
 
 @media screen and (max-width: 575px) {
   .about {
+    margin: 40px 0;
+      img{
+        margin-bottom: 25px;
+      }
     .content {
+
 
       h2 {
         font-size: 30px;
