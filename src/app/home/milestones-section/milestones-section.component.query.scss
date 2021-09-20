@@ -13,9 +13,12 @@
 }
 
 @media screen and (max-width: 767px) {
-
-}
-
-@media screen and (max-width: 575px) {
-
+  section {
+    height: fit-content;
+    padding: 20px 0;
+    app-milestone-counter {
+      width: 90%;
+      margin: 25px 0;
+    }
+  }
 }
