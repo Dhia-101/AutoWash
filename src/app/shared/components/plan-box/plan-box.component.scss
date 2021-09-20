@@ -1,0 +1,41 @@
+.box-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  h2 {
+    position: relative;
+    font-size: 25px;
+    font-weight: 700;
+    span {
+      position: absolute;
+      &:first-child {
+        top: 12px;
+        left: -20px;
+      }
+      &:last-child {
+        top: 8px;
+        right: -35px;
+      }
+    }
+
+    strong {
+      font-weight: 800;
+      font-size: 60px;
+    }
+
+  }
+
+  li {
+    list-style-type: none;
+
+
+
+  }
+}

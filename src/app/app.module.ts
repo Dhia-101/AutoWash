@@ -13,6 +13,7 @@ import { SharedModule } from './shared/shared.module';
 import { AboutUsSectionComponent } from './home/about-us-section/about-us-section.component';
 import { WhatWeDoSectionComponent } from './home/what-we-do-section/what-we-do-section.component';
 import { MilestonesSectionComponent } from './home/milestones-section/milestones-section.component';
+import { WashingPlansComponent } from './home/washing-plans/washing-plans.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MilestonesSectionComponent } from './home/milestones-section/milestones
     CarouselComponent,
     AboutUsSectionComponent,
     WhatWeDoSectionComponent,
-    MilestonesSectionComponent
+    MilestonesSectionComponent,
+    WashingPlansComponent
   ],
   imports: [
     BrowserModule,
