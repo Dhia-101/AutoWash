@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { SharedModule } from './shared/shared.module';
 import { AboutUsSectionComponent } from './home/about-us-section/about-us-section.component';
 import { WhatWeDoSectionComponent } from './home/what-we-do-section/what-we-do-section.component';
+import { MilestonesSectionComponent } from './home/milestones-section/milestones-section.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { WhatWeDoSectionComponent } from './home/what-we-do-section/what-we-do-s
     NavBarComponent,
     CarouselComponent,
     AboutUsSectionComponent,
-    WhatWeDoSectionComponent
+    WhatWeDoSectionComponent,
+    MilestonesSectionComponent
   ],
   imports: [
     BrowserModule,

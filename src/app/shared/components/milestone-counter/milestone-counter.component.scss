@@ -1,0 +1,30 @@
+.counter-body {
+  color: white;
+  display: flex;
+  i{
+    margin: 15px 10px;
+    font-size: 50px;
+  }
+
+  h3{
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 0;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      font-weight: 900;
+      top: -7px;
+      right: -2px;
+      font-size: 25px;
+      content: "\f067";
+      font-family: "Font Awesome 5 Free";
+    }
+  }
+
+  p{
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
