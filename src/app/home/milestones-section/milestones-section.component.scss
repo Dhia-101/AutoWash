@@ -6,5 +6,11 @@ section {
   align-items: center;
   justify-content: space-evenly;
   padding: 0 120px;
+  flex-wrap: wrap;
+  app-milestone-counter {
+    width: 20%;
+    position: relative;
+    right: 40px;
+  }
 
 }
