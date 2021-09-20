@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-milestone-counter',
@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MilestoneCounterComponent implements OnInit {
 
+  @Input() icon = '';
+  @Input() digit = 0;
+  @Input() text = '';
   constructor() { }
 
   ngOnInit(): void {
