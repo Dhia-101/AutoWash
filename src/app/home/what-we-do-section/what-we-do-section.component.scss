@@ -25,6 +25,7 @@ section {
 
 
   .grid-container {
+    width: 80%;
     display: grid;
     grid-template: repeat(2, 250px) / repeat(4, 23%);
     justify-items: center;

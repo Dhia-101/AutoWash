@@ -5,6 +5,7 @@
     }
 
     .grid-container {
+      width: 100%;
       .grid-item {
         i{
           font-size: 75px;
@@ -38,11 +39,13 @@
 
 
     .grid-container {
-      grid-template: repeat(8, 200px) / repeat(1, 70%);
+      grid-template: repeat(4, 200px) / repeat(2, 70%);
       justify-content: center;
       margin: 10px 0;
+      width: 70%;
       .grid-item {
         margin: 0;
+        width: 70%;
 
         h3 {
           margin: 5px 0;
@@ -59,11 +62,22 @@
 }
 
 @media screen and (max-width: 767px) {
-    section {
-      h2 {
-        font-size: 30px;
+  section {
+    h2 {
+      font-size: 30px;
+    }
+
+    .grid-container {
+      grid-template: repeat(8, 200px) / repeat(1, 70%);
+      justify-content: center;
+      margin: 10px 0;
+
+      .grid-item {
+
+
       }
     }
+  }
 }
 
 @media screen and (max-width: 575px) {
