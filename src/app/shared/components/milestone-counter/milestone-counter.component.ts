@@ -1,20 +1,41 @@
-import {AfterViewChecked, AfterViewInit, Component, ElementRef, Input, OnChanges, OnInit, SimpleChanges, ViewChild} from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  HostListener,
+  Input,
+  ViewChild
+} from '@angular/core';
 
 @Component({
   selector: 'app-milestone-counter',
   templateUrl: './milestone-counter.component.html',
   styleUrls: ['./milestone-counter.component.scss']
 })
-export class MilestoneCounterComponent implements AfterViewInit {
+export class MilestoneCounterComponent {
 
   @Input() icon = '';
   @Input() digit = 0;
   @Input() text = '';
+  triggered = false;
   steps = 65;
   // @ts-ignore
   @ViewChild('animatedDigit') animatedDigit: ElementRef;
 
-  constructor() { }
+  constructor() {
+    if (window.innerHeight + window.scrollY === document.body.scrollHeight) {
+      console.log('bottom');
+    }
+  }
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll(event: any): void {
+    if (window.scrollY  < 1900 && this.triggered === false) {
+      if (this.digit) {
+        this.animateCount();
+        this.triggered = true;
+      }
+    }
+  }
 
   animateCount(): void {
     this.counterFunc(this.digit, 10000, this.animatedDigit);
@@ -43,9 +64,4 @@ export class MilestoneCounterComponent implements AfterViewInit {
     step();
   }
 
-  ngAfterViewInit(): void {
-    if (this.digit) {
-      this.animateCount();
-    }
-  }
 }
