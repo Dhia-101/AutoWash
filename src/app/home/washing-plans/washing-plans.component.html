@@ -2,8 +2,44 @@
   <p>Washing Plan</p>
   <h2>Choose Your Plan</h2>
   <div class="plans">
-    <app-plan-box [shadow]="false" [buttonType]="'secondary'"></app-plan-box>
-    <app-plan-box [shadow]="true" [buttonType]="'main'"></app-plan-box>
-    <app-plan-box [shadow]="false" [buttonType]="'secondary'"></app-plan-box>
+    <app-plan-box
+      [shadow]="false"
+      [boxType]="'secondary'"
+      [title]="'Basic Cleaning'"
+      [price]="25"
+      [list]="[
+        { label: 'Seats Washing', state: true },
+        { label: 'Vacuum Cleaning', state: true },
+        { label: 'Exterior Cleaning', state: true },
+        { label: 'Interior Wet Cleaning', state: false },
+        { label: 'Window Wiping', state: false }
+      ]"
+    ></app-plan-box>
+    <app-plan-box
+      [shadow]="true"
+      [boxType]="'main'"
+      [title]="'Premium Cleaning'"
+      [price]="35"
+      [list]="[
+        { label: 'Seats Washing', state: true },
+        { label: 'Vacuum Cleaning', state: true },
+        { label: 'Exterior Cleaning', state: true },
+        { label: 'Interior Wet Cleaning', state: true },
+        { label: 'Window Wiping', state: false }
+      ]"
+    ></app-plan-box>
+    <app-plan-box
+      [shadow]="false"
+      [boxType]="'secondary'"
+      [title]="'Complex Cleaning'"
+      [price]="49"
+      [list]="[
+        { label: 'Seats Washing', state: true },
+        { label: 'Vacuum Cleaning', state: true },
+        { label: 'Exterior Cleaning', state: true },
+        { label: 'Interior Wet Cleaning', state: true },
+        { label: 'Window Wiping', state: true }
+      ]"
+    ></app-plan-box>
   </div>
 </section>

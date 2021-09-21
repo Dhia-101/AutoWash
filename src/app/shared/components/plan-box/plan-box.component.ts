@@ -8,7 +8,11 @@ import {Component, Input, OnInit} from '@angular/core';
 export class PlanBoxComponent implements OnInit {
 
   @Input() shadow = true;
-  @Input() buttonType = 'main';
+  @Input() boxType = 'main';
+  @Input() title = '';
+  @Input() price = 0;
+  @Input() list = [];
+  state = true;
   constructor() { }
 
   ngOnInit(): void {
