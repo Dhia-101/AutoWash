@@ -1,18 +1,57 @@
 section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 30px 0;
   > :first-child {
-    width: 50%;
+    width: 40%;
+    margin-right: 7%;
+
+    .section-title {
+      color: #E81C2E;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 4px;
+
+      &::after {
+        content: " ";
+        border: 1px solid #E81C2E;
+        display: block;
+        width: 97px;
+      }
+    }
+
+    .section-description {
+      text-transform: capitalize;
+      font-weight: 700;
+      font-size: 45px;
+      margin-bottom: 30px;
+    }
+
     .locations-grid {
       display: grid;
       grid-template: repeat(2, 150px) / repeat(2, 50%);
-      div {
+      > div {
         height: 100%;
+        display: flex;
+        i {
+          font-size: 20px;
+          color: #E81C2E;
+          margin-right: 7px;
+        }
+        h3{
+          font-size: 18px;
+          font-weight: 700;
+        }
+        p {
+          font-size: 14px;
+          font-weight: 400;
+        }
       }
     }
   }
+
   > :last-child {
-    width: 30%;
+    width: 25%;
     background-color: red;
   }
 }
