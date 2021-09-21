@@ -4,7 +4,6 @@
   flex-direction: column;
   align-items: center;
   padding: 60px 0;
-  //max-width: 350px;
 
   &.have-shadow {
     box-shadow: 0 0 30px rgb(0 0 0 / 20%);
@@ -45,6 +44,17 @@
     padding: 0;
     text-align: center;
     margin: 15px 0;
+
+    i {
+      margin-right: 10px;
+
+      &.fa-times-circle {
+        color: #cccccc;
+      }
+      &.fa-check-circle {
+        color: #39B972;
+      }
+    }
   }
 
   app-button {
