@@ -1,4 +1,4 @@
-<div class="box-body">
+<div class="box-body" [class.have-shadow]="shadow">
   <h3>
     Basic Cleaning
   </h3>
@@ -29,10 +29,17 @@
       Window Wiping
     </li>
   </ul>
-  <app-button
+  <app-button *ngIf="buttonType=='main'"
+    [defaultBackgroundColor]="'#E81C2E'" [animatedBackgroundColor]="'#202C45'"
+    [defaultTextColor]="'#FFFFFF'" [animatedTextColor]="'#E81C2E'"
+  >
+    Learn More
+  </app-button>
+  <app-button *ngIf="buttonType=='secondary'"
     [defaultBackgroundColor]="'#202C45'" [animatedBackgroundColor]="'#E81C2E'"
     [defaultTextColor]="'#E81C2E'" [animatedTextColor]="'#FFFFFF'"
   >
     Learn More
   </app-button>
+
 </div>
