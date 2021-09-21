@@ -1,0 +1,42 @@
+@media screen and (max-width: 1199px) {
+  section {
+    .plans {
+      padding: 0;
+      > * {
+        width: 33.33%;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+  section {
+    .plans {
+      margin: 0;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 0;
+      > * {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  section {
+    .plans {
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 0;
+      > * {
+        width: 90%;
+      }
+    }
+  }
+}
