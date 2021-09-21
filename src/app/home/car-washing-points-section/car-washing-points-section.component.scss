@@ -1,0 +1,18 @@
+section {
+  display: flex;
+  justify-content: space-around;
+  > :first-child {
+    width: 50%;
+    .locations-grid {
+      display: grid;
+      grid-template: repeat(2, 150px) / repeat(2, 50%);
+      div {
+        height: 100%;
+      }
+    }
+  }
+  > :last-child {
+    width: 30%;
+    background-color: red;
+  }
+}

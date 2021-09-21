@@ -14,6 +14,7 @@ import { AboutUsSectionComponent } from './home/about-us-section/about-us-sectio
 import { WhatWeDoSectionComponent } from './home/what-we-do-section/what-we-do-section.component';
 import { MilestonesSectionComponent } from './home/milestones-section/milestones-section.component';
 import { WashingPlansComponent } from './home/washing-plans/washing-plans.component';
+import { CarWashingPointsSectionComponent } from './home/car-washing-points-section/car-washing-points-section.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { WashingPlansComponent } from './home/washing-plans/washing-plans.compon
     AboutUsSectionComponent,
     WhatWeDoSectionComponent,
     MilestonesSectionComponent,
-    WashingPlansComponent
+    WashingPlansComponent,
+    CarWashingPointsSectionComponent
   ],
   imports: [
     BrowserModule,
