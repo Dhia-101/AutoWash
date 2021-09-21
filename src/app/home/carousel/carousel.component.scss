@@ -50,23 +50,11 @@
                         font-size: 16px;
 
                     }
-                    button {
-                        background-color: #E81C2E;
-                        color: #FFF;
-                        padding: 12px 30px;
-                        border-radius: 25px;
-                        margin-right: 0;
-                        transition: color ease-in 0.15s, background-color ease-in 0.15s;
-                        border: none;
-                        margin: auto;
-                        width: 25%;
-                    }
 
-                    .custom-button:hover {
-                        background-color: #202C45;
-                        color: #E81C2E;
-                    }
-
+                  .btn-box {
+                    margin: auto;
+                    width: 25%;
+                  }
                 }
             }
         }
