@@ -2,7 +2,6 @@
   section {
     > :first-child {
       width: 50%;
-
       .section-title {
         margin-bottom: 12px;
       }
@@ -14,7 +13,6 @@
       width: 30%;
     }
   }
-
 }
 
 
@@ -27,13 +25,136 @@
 }
 
 @media screen and (max-width: 991px) {
+  section {
+    align-items: center;
+    flex-direction: column;
 
+    > :first-child {
+      width: 90%;
+      margin-right: 0;
+
+    }
+
+    > :last-child {
+      margin-top: 25px;
+      width: 70%;
+
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
+  section {
+    > :last-child {
+      width: 90%;
 
+    }
+  }
 }
 
 @media screen and (max-width: 575px) {
+  section {
+    > :first-child {
+      height: 520px;
+      .section-title {
+        color: #E81C2E;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 4px;
 
+        &::after {
+          content: " ";
+          border: 1px solid #E81C2E;
+          display: block;
+          width: 97px;
+        }
+      }
+
+      .section-description {
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 30px;
+        white-space: unset;
+      }
+
+      .locations-grid {
+        row-gap: 10%;
+        grid-template: repeat(2, 25%) / repeat(1, 100%);
+        > div {
+          height: 100%;
+          display: flex;
+          i {
+            font-size: 20px;
+            color: #E81C2E;
+            margin-right: 7px;
+          }
+          h3{
+            font-size: 18px;
+            font-weight: 700;
+          }
+          p {
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    > :last-child {
+
+      background-color: red;
+      padding: 20px 30px;
+      border-radius: 5px;
+      h3 {
+        color: #FFFFFF;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 20px 0;
+        text-align: center;
+
+      }
+
+      form {
+        width: 100%;
+        margin: 30px 0;
+        * {
+          width: 100%;
+          display: block;
+          outline: none;
+          margin: 10px 0;
+          background-color: #E81C2E;
+        }
+        input {
+          border: 1px solid #FFFFFF;
+          height: 45px;
+          background-color: #E81C2E;
+          border-radius: 5px;
+          color: #FFFFFF;
+          padding: 10px;
+
+          &::placeholder {
+            color: #FFFFFF;
+          }
+        }
+
+        textarea{
+          border-radius: 5px;
+          border: 1px solid #FFFFFF;
+          color: #FFFFFF;
+          background-color: #E81C2E;
+          height: 90px;
+          padding: 10px;
+          &::placeholder {
+            color: #FFFFFF;
+          }
+        }
+
+        app-button {
+          margin-top: 30px;
+        }
+
+      }
+    }
+  }
 }
