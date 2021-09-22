@@ -3,9 +3,29 @@
     <h2 class="section-description">Our Enginners & Workers</h2>
   <div class="staff-cards">
 
-      <app-person-card></app-person-card>
-      <app-person-card></app-person-card>
-      <app-person-card></app-person-card>
-      <app-person-card></app-person-card>
+      <app-person-card
+        [imgLink]="'team-2'"
+        [name]="'Donald John'"
+        [job]="'Worker'"
+        [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+      ></app-person-card>
+      <app-person-card
+        [imgLink]="'team-3'"
+        [name]="'Adam Philips'"
+        [job]="'Engineer'"
+        [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+      ></app-person-card>
+      <app-person-card
+        [imgLink]="'team-3'"
+        [name]="'Thomas Olsen'"
+        [job]="'Worker'"
+        [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+      ></app-person-card>
+      <app-person-card
+        [imgLink]="'team-2'"
+        [name]="'James Alien'"
+        [job]="'manager'"
+        [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+      ></app-person-card>
   </div>
 </section>
