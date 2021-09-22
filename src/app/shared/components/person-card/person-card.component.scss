@@ -48,6 +48,10 @@
         cursor: pointer;
         transition: background-color 0.3s ease, color 0.3s ease;
 
+        &:last-child {
+          margin-right: 0;
+        }
+
         &:hover {
           color: #202C45;
         }
@@ -68,15 +72,8 @@
         .social-media-buttons {
           > * {
             background-color: #E81C2E;
-
-
           }
         }
       }
     }
-
-
-
-
-
 }

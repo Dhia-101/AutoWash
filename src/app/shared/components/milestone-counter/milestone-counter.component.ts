@@ -9,7 +9,7 @@ import {
 @Component({
   selector: 'app-milestone-counter',
   templateUrl: './milestone-counter.component.html',
-  styleUrls: ['./milestone-counter.component.scss', './milestone-counter.component.query.scss']
+  styleUrls: ['./milestone-counter.component.scss']
 })
 export class MilestoneCounterComponent {
 
