@@ -14,10 +14,11 @@ import { PersonCardComponent } from './components/person-card/person-card.compon
     CommonModule,
     SharedRoutingModule
   ],
-  exports: [
-    ButtonComponent,
-    MilestoneCounterComponent,
-    PlanBoxComponent
-  ]
+    exports: [
+        ButtonComponent,
+        MilestoneCounterComponent,
+        PlanBoxComponent,
+        PersonCardComponent
+    ]
 })
 export class SharedModule { }

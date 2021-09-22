@@ -28,11 +28,17 @@ section {
   .staff-cards {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    margin: 20px 0;
+    justify-content: center;
 
     > * {
-      width: 20%;
+      width: 16%;
+      margin-right: 45px;
       text-align: center;
+
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
 
