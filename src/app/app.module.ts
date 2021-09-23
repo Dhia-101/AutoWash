@@ -8,7 +8,7 @@ import { TopInfoBandComponent } from './home/top-info-band/top-info-band.compone
 import { NavBarComponent } from './home/nav-bar/nav-bar.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { AboutUsSectionComponent } from './home/about-us-section/about-us-section.component';
 import { WhatWeDoSectionComponent } from './home/what-we-do-section/what-we-do-section.component';
@@ -16,6 +16,9 @@ import { MilestonesSectionComponent } from './home/milestones-section/milestones
 import { WashingPlansComponent } from './home/washing-plans/washing-plans.component';
 import { CarWashingPointsSectionComponent } from './home/car-washing-points-section/car-washing-points-section.component';
 import { MeetOurTeamSectionComponent } from './home/meet-our-team-section/meet-our-team-section.component';
+import { RouterModule } from '@angular/router';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { TestemonialCarouselComponent } from './home/testemonial-carousel/testemonial-carousel.component';
 
 @NgModule({
   declarations: [
@@ -29,12 +32,15 @@ import { MeetOurTeamSectionComponent } from './home/meet-our-team-section/meet-o
     MilestonesSectionComponent,
     WashingPlansComponent,
     CarWashingPointsSectionComponent,
-    MeetOurTeamSectionComponent
+    MeetOurTeamSectionComponent,
+    TestemonialCarouselComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    RouterModule,
+    CarouselModule,
     SharedModule
   ],
   providers: [],
