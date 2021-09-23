@@ -8,7 +8,6 @@ body {
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-size: 75px;
-
 }
 
 i {
@@ -38,3 +37,62 @@ button{
   user-select: none;
 }
 
+// Owl Carousel Style
+
+.owl-carousel {
+  .owl-item{
+    display: flex;
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 100%;
+    }
+    .ng-star-inserted:last-child{
+      margin: 0 28px 0 15px;
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+        color: #202C45;
+      }
+      h4 {
+        color: #777777;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: italic;
+      }
+      p {
+        font-weight: 400;
+        color: #444444;
+        font-size: 16px;
+
+        &::before {
+          content: "\f10d";
+          font-family: "Font Awesome 5 Free";
+          color: #E81C2E;
+          font-size: 25px;
+          font-weight: 900;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.owl-theme {
+  .owl-dots {
+    .owl-dot {
+      &.active {
+        // if active color applies to the span
+        span {
+          background-color: #E81C2E;
+        }
+      }
+      span {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}

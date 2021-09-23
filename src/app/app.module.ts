@@ -18,7 +18,7 @@ import { CarWashingPointsSectionComponent } from './home/car-washing-points-sect
 import { MeetOurTeamSectionComponent } from './home/meet-our-team-section/meet-our-team-section.component';
 import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { TestemonialCarouselComponent } from './home/testemonial-carousel/testemonial-carousel.component';
+import { TestemonialSectionComponent } from './home/testemonial-section/testemonial-section.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,7 @@ import { TestemonialCarouselComponent } from './home/testemonial-carousel/testem
     WashingPlansComponent,
     CarWashingPointsSectionComponent,
     MeetOurTeamSectionComponent,
-    TestemonialCarouselComponent
+    TestemonialSectionComponent
   ],
   imports: [
     BrowserModule,

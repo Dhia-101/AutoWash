@@ -3,11 +3,10 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-testemonial-carousel',
-  templateUrl: './testemonial-carousel.component.html',
-  styleUrls: ['./testemonial-carousel.component.scss']
+  templateUrl: './testemonial-section.component.html',
+  styleUrls: ['./testemonial-section.component.scss']
 })
-export class TestemonialCarouselComponent implements OnInit {
-
+export class TestemonialSectionComponent implements OnInit {
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
@@ -15,7 +14,7 @@ export class TestemonialCarouselComponent implements OnInit {
     pullDrag: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 4000,
     dots: true,
     dotsEach: 1,
     navSpeed: 700,
