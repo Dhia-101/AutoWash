@@ -23,14 +23,24 @@
         margin-bottom: 30px;
       }
     }
-
   }
 
 }
 @media screen and (max-width: 767px) {
-
+  section {
+    .section-description {
+      margin-bottom: 5px;
+    }
+    .staff-cards {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      > * {
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 30px;
+      }
+    }
+  }
 }
 
-@media screen and (max-width: 575px) {
-
-}

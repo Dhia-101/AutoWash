@@ -13,7 +13,8 @@ section {
         content: " ";
         border: 1px solid #E81C2E;
         display: block;
-        width: 97px;
+        width: 80px;
+        margin: auto;
       }
     }
 
@@ -22,7 +23,7 @@ section {
       font-weight: 700;
       font-size: 45px;
       margin-bottom: 30px;
-      white-space: nowrap;
+      text-align: center;
     }
 
   .staff-cards {
