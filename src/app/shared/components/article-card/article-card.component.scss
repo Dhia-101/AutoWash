@@ -1,0 +1,14 @@
+.article-card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  :first-child {
+    img {
+      width: 100%;
+    }
+    .date-circle {
+      display: none;
+    }
+
+  }
+}
