@@ -13,7 +13,11 @@ export class TestemonialCarouselComponent implements OnInit {
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    autoplayTimeout: 3000,
     dots: true,
+    dotsEach: 1,
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
@@ -27,10 +31,10 @@ export class TestemonialCarouselComponent implements OnInit {
         items: 3
       },
       940: {
-        items: 4
+        items: 3
       }
     },
-    nav: true
+    nav: false
   };
   constructor() { }
 
