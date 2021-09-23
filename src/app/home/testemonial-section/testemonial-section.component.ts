@@ -4,7 +4,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 @Component({
   selector: 'app-testemonial-carousel',
   templateUrl: './testemonial-section.component.html',
-  styleUrls: ['./testemonial-section.component.scss']
+  styleUrls: ['./testemonial-section.component.scss', 'testemonial-section.component.query.scss']
 })
 export class TestemonialSectionComponent implements OnInit {
   customOptions: OwlOptions = {
@@ -24,10 +24,10 @@ export class TestemonialSectionComponent implements OnInit {
         items: 1
       },
       400: {
-        items: 2
+        items: 1
       },
       740: {
-        items: 3
+        items: 2
       },
       940: {
         items: 3
