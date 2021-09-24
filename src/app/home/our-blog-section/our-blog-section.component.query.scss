@@ -7,12 +7,19 @@
 
       }
     }
-
   }
 
 }
 @media screen and (max-width: 991px) {
-
+  section {
+    .articles {
+      width: 100%;
+      flex-wrap: wrap;
+      > * {
+        width: 90%;
+      }
+    }
+  }
 }
 @media screen and (max-width: 767px) {
 
