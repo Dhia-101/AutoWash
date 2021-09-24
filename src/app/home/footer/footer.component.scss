@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   background-color: #202C45;
-  height: 420px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,6 +12,7 @@ footer {
   .sections {
     width: 72%;
     display: flex;
+    margin-bottom: 80px;
     justify-content: space-between;
     > * {
       &:last-child {
@@ -94,7 +95,6 @@ footer {
       color: #E81C2E;
       font-weight: 700;
     }
-
 
   }
 }
