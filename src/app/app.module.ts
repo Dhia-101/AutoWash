@@ -20,6 +20,7 @@ import { RouterModule } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TestemonialSectionComponent } from './home/testemonial-section/testemonial-section.component';
 import { OurBlogSectionComponent } from './home/our-blog-section/our-blog-section.component';
+import { FooterComponent } from './home/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { OurBlogSectionComponent } from './home/our-blog-section/our-blog-sectio
     CarWashingPointsSectionComponent,
     MeetOurTeamSectionComponent,
     TestemonialSectionComponent,
-    OurBlogSectionComponent
+    OurBlogSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
