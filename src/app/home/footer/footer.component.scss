@@ -6,15 +6,95 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 3% 0 2% 0;
+  padding: 3% 0 1% 0;
   color: white;
 
   .sections {
     width: 72%;
     display: flex;
     justify-content: space-between;
+    > * {
+      &:last-child {
+        width: 22%;
+      }
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        color: #E81C2E;
+        margin-bottom: 20px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        > * {
+          outline: none;
+          margin-bottom: 15px;
+        }
+        input {
+          background-color: #202C45;
+          border: 1px solid #FFFFFF;
+          color: #FFFFFF;
+          border-radius: 5px;
+          padding: 10px 15px;
+        }
+      }
+
+      .social-media-links {
+        display: flex;
+        > * {
+          color: #202C45;
+          width: 40px;
+          height: 40px;
+          background-color: #FFFFFF;
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          align-items: center;
+          text-decoration: none;
+          margin-right: 5px;
+          transition: 0.5s;
+
+          &:hover {
+            color: #FFFFFF;
+            background-color: #E81C2E;
+          }
+
+        }
+      }
+    }
+
+    .popular-links,
+    .useful-links {
+      a {
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-bottom: 7px;
+
+        &::before {
+          content: "\f105";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          font-size: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
   }
 
   .copyright {
+    font-size: 15px;
+    a {
+      text-decoration: none;
+      color: #E81C2E;
+      font-weight: 700;
+    }
+
+
   }
 }
