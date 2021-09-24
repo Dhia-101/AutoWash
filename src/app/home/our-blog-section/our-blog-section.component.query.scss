@@ -1,0 +1,20 @@
+@media screen and (max-width: 1199px) {
+  section {
+    .articles {
+      width: 100%;
+      > * {
+        width: 350px;
+
+      }
+    }
+
+  }
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+
