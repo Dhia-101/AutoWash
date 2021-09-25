@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { AboutPageComponent } from './about-page/about-page.component';
-import { ServicePageComponent } from './service-page/service-page.component';
-import {PricePageComponent} from './price-page/price-page.component';
+import { HomeComponent } from './pages/home/home.component';
+import {TeamMembersPageComponent} from './pages/team-members-page/team-members-page.component';
+import {ScheduleBookingPageComponent} from './pages/schedule-booking-page/schedule-booking-page.component';
+import {AboutPageComponent} from './pages/about-page/about-page.component';
+import {DetailPageComponent} from './pages/detail-page/detail-page.component';
 import {WashingPointsComponent} from './washing-points/washing-points.component';
-import {ContactPageComponent} from './contact-page/contact-page.component';
-import {BlogGridPageComponent} from './blog-grid-page/blog-grid-page.component';
-import {DetailPageComponent} from './detail-page/detail-page.component';
-import {TeamMembersPageComponent} from './team-members-page/team-members-page.component';
-import {ScheduleBookingPageComponent} from './schedule-booking-page/schedule-booking-page.component';
+import {ServicePageComponent} from './pages/service-page/service-page.component';
+import {ContactPageComponent} from './pages/contact-page/contact-page.component';
+import {BlogGridPageComponent} from './pages/blog-grid-page/blog-grid-page.component';
+import {PricePageComponent} from './pages/price-page/price-page.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

@@ -1,8 +1,4 @@
-main {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
+
 
 
 .about {
@@ -57,9 +53,9 @@ main {
             margin-right: 0;
             transition: color ease-in 0.15s, background-color ease-in 0.15s;
             border: none;
-            
+
         }
-        
+
         .custom-button:hover {
             background-color: #202C45;
             color: #E81C2E;
