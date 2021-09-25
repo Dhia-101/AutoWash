@@ -1,9 +1,4 @@
 @media screen and (max-width: 1199px) {
-  section {
-    h2 {
-      font-size: 35px;
-    }
-
     .grid-container {
       width: 100%;
       .grid-item {
@@ -19,74 +14,37 @@
         }
       }
     }
-  }
-
 }
 
 @media screen and (max-width: 991px) {
-  section {
-    > :first-child {
-      letter-spacing: 2px;
-      font-weight: 600;
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      font-weight: 600;
-      font-size: 35px;
-    }
-
-
-    .grid-container {
-      grid-template: repeat(4, 200px) / repeat(2, 70%);
-      justify-content: center;
-      margin: 10px 0;
+  .grid-container {
+    grid-template: repeat(4, 200px) / repeat(2, 70%);
+    justify-content: center;
+    margin: 10px 0;
+    width: 70%;
+    .grid-item {
+      margin: 0;
       width: 70%;
-      .grid-item {
-        margin: 0;
-        width: 70%;
 
-        h3 {
-          margin: 5px 0;
-          font-size: 20px;
-          font-weight: 600;
-        }
-    p {
-      margin-bottom: 0;
-    }
+      h3 {
+        margin: 5px 0;
+        font-size: 20px;
+        font-weight: 600;
       }
-
+  p {
+    margin-bottom: 0;
+  }
     }
+
   }
 }
+
 
 @media screen and (max-width: 767px) {
-  section {
-    h2 {
-      font-size: 30px;
-    }
-
-    .grid-container {
-      grid-template: repeat(8, 200px) / repeat(1, 70%);
-      justify-content: center;
-      margin: 10px 0;
-
-      .grid-item {
-
-
-      }
-    }
+  .grid-container {
+    grid-template: repeat(8, 200px) / repeat(1, 70%);
+    justify-content: center;
+    margin: 10px 0;
   }
 }
 
-@media screen and (max-width: 575px) {
-  section {
-    h2 {
-      text-align: center;
-      font-size: 25px;
-      margin-bottom: 0;
-    }
-  }
-
-}

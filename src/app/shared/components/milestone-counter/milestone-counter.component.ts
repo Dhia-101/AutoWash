@@ -21,11 +21,7 @@ export class MilestoneCounterComponent {
   // @ts-ignore
   @ViewChild('animatedDigit') animatedDigit: ElementRef;
 
-  constructor() {
-    if (window.innerHeight + window.scrollY === document.body.scrollHeight) {
-      console.log('bottom');
-    }
-  }
+  constructor() {}
 
   @HostListener('window:scroll', ['$event'])
   onWindowScroll(event: any): void {
@@ -60,7 +56,6 @@ export class MilestoneCounterComponent {
         window.requestAnimationFrame(step);
       }
     }
-
     step();
   }
 
