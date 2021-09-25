@@ -11,12 +11,23 @@
   h2 {
     font-weight: 700;
     font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    &::after {
+      content: ' ';
+      border: 1px solid #FFFFFF;
+      width: 40%;
+      margin: auto;
+      display: block;
+    }
   }
   .items {
     > * {
+      text-transform: capitalize;
       color: #FFFFFF;
       text-decoration: none;
       font-size: 22px;
+      transition: 0.3s;
 
       &:hover {
         color: #E81C2E;

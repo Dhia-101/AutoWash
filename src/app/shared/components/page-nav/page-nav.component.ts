@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-page-nav',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page-nav.component.scss']
 })
 export class PageNavComponent implements OnInit {
+  @Input() title = '';
+  @Input() items: any;
 
   constructor() { }
 
