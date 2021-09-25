@@ -21,6 +21,15 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TestemonialSectionComponent } from './home/testemonial-section/testemonial-section.component';
 import { OurBlogSectionComponent } from './home/our-blog-section/our-blog-section.component';
 import { FooterComponent } from './home/footer/footer.component';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { ServicePageComponent } from './service-page/service-page.component';
+import { PricePageComponent } from './price-page/price-page.component';
+import { WashingPointsComponent } from './washing-points/washing-points.component';
+import { BlogGridPageComponent } from './blog-grid-page/blog-grid-page.component';
+import { DetailPageComponent } from './detail-page/detail-page.component';
+import { TeamMembersPageComponent } from './team-members-page/team-members-page.component';
+import { ScheduleBookingPageComponent } from './schedule-booking-page/schedule-booking-page.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +46,16 @@ import { FooterComponent } from './home/footer/footer.component';
     MeetOurTeamSectionComponent,
     TestemonialSectionComponent,
     OurBlogSectionComponent,
-    FooterComponent
+    FooterComponent,
+    AboutPageComponent,
+    ServicePageComponent,
+    PricePageComponent,
+    WashingPointsComponent,
+    BlogGridPageComponent,
+    DetailPageComponent,
+    TeamMembersPageComponent,
+    ScheduleBookingPageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
