@@ -1,15 +1,12 @@
 @media screen and (max-width: 1199px) {
-  section {
     .staff-cards {
       > * {
         width: 22%;
         margin-right: 25px;
       }
     }
-  }
 }
 @media screen and (max-width: 991px) {
-  section {
     .staff-cards {
       display: flex;
       justify-content: space-evenly;
@@ -20,23 +17,16 @@
         margin-bottom: 30px;
       }
     }
-  }
-
 }
 @media screen and (max-width: 767px) {
-  section {
-    .section-description {
-      margin-bottom: 5px;
-    }
-    .staff-cards {
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      > * {
-        width: 80%;
-        margin-right: 0;
-        margin-bottom: 30px;
-      }
+  .staff-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    > * {
+      width: 80%;
+      margin-right: 0;
+      margin-bottom: 30px;
     }
   }
 }

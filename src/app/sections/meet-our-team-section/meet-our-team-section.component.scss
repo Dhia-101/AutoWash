@@ -26,21 +26,22 @@ section {
       text-align: center;
     }
 
-  .staff-cards {
-    display: flex;
-    width: 100%;
-    margin: 20px 0;
-    justify-content: center;
 
-    > * {
-      width: 16%;
-      margin-right: 45px;
-      text-align: center;
+}
 
-      &:last-child {
-        margin-right: 0;
-      }
+.staff-cards {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+  justify-content: center;
+
+  > * {
+    width: 16%;
+    margin-right: 45px;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
     }
   }
-
 }

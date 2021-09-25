@@ -1,17 +1,12 @@
 @media screen and (max-width: 1199px) {
-  section {
-    .articles {
-      width: 100%;
-      > * {
-        width: 350px;
-
-      }
+  .articles {
+    width: 100%;
+    > * {
+      width: 350px;
     }
   }
-
 }
 @media screen and (max-width: 991px) {
-  section {
     .articles {
       width: 100%;
       flex-wrap: wrap;
@@ -19,9 +14,5 @@
         width: 90%;
       }
     }
-  }
-}
-@media screen and (max-width: 767px) {
-
 }
 

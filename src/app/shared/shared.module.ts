@@ -8,6 +8,7 @@ import { PlanBoxComponent } from './components/plan-box/plan-box.component';
 import { PersonCardComponent } from './components/person-card/person-card.component';
 import { ArticleCardComponent } from './components/article-card/article-card.component';
 import { PageNavComponent } from './components/page-nav/page-nav.component';
+import { SectionTemplateComponent } from './template-components/section-template/section-template.component';
 
 
 @NgModule({
@@ -17,19 +18,21 @@ import { PageNavComponent } from './components/page-nav/page-nav.component';
     PlanBoxComponent,
     PersonCardComponent,
     ArticleCardComponent,
-    PageNavComponent
+    PageNavComponent,
+    SectionTemplateComponent
   ],
   imports: [
     CommonModule,
     SharedRoutingModule
   ],
-    exports: [
-        ButtonComponent,
-        MilestoneCounterComponent,
-        PlanBoxComponent,
-        PersonCardComponent,
-        ArticleCardComponent,
-        PageNavComponent
-    ]
+  exports: [
+    ButtonComponent,
+    MilestoneCounterComponent,
+    PlanBoxComponent,
+    PersonCardComponent,
+    ArticleCardComponent,
+    PageNavComponent,
+    SectionTemplateComponent
+  ]
 })
 export class SharedModule { }
