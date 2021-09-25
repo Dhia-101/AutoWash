@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand d-lg-none">Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item" >
+            <a class="nav-link active" aria-current="page"  routerLink="/home" routerLinkActive="is-active">Home</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" routerLink="about" routerLinkActive="is-active">About</a>
+          </li>
+          <li class="nav-item" routerLinkActive="is-active">
+            <a class="nav-link" routerLink="service" routerLinkActive="is-active">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="price" routerLinkActive="is-active">Price</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="washing-points" routerLinkActive="is-active">Washing Points</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" routerLink="more" routerLinkActive="is-active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  >
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item"  routerLink="more/blog-grid">Blog Grid</a></li>
+              <li><a class="dropdown-item"  routerLink="more/detail">Detail Page</a></li>
+              <li><a class="dropdown-item" routerLink="more/team-members">Team Member</a></li>
+              <li><a class="dropdown-item" routerLink="more/schedule-booking">Schedule Booking</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact" routerLinkActive="is-active">Contact</a>
+          </li>
+        </ul>
+          <app-button class="d-none d-lg-block">Get Appointment</app-button>
+      </div>
+    </div>
+  </nav>
