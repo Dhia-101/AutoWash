@@ -7,10 +7,18 @@ import { MilestoneCounterComponent } from './components/milestone-counter/milest
 import { PlanBoxComponent } from './components/plan-box/plan-box.component';
 import { PersonCardComponent } from './components/person-card/person-card.component';
 import { ArticleCardComponent } from './components/article-card/article-card.component';
+import { PageNavComponent } from './components/page-nav/page-nav.component';
 
 
 @NgModule({
-  declarations: [ButtonComponent, MilestoneCounterComponent, PlanBoxComponent, PersonCardComponent, ArticleCardComponent],
+  declarations: [
+    ButtonComponent,
+    MilestoneCounterComponent,
+    PlanBoxComponent,
+    PersonCardComponent,
+    ArticleCardComponent,
+    PageNavComponent
+  ],
   imports: [
     CommonModule,
     SharedRoutingModule
@@ -20,7 +28,8 @@ import { ArticleCardComponent } from './components/article-card/article-card.com
         MilestoneCounterComponent,
         PlanBoxComponent,
         PersonCardComponent,
-        ArticleCardComponent
+        ArticleCardComponent,
+        PageNavComponent
     ]
 })
 export class SharedModule { }

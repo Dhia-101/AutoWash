@@ -1,0 +1,33 @@
+.nav-body {
+  background-color: #202C45;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px dotted #FFFFFF;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  h2 {
+    font-weight: 700;
+    font-size: 60px;
+  }
+  .items {
+    > * {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 22px;
+
+      &:hover {
+        color: #E81C2E;
+      }
+
+      &:not(:last-child)::after  {
+        content: "/";
+        margin: 0 7px;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+}
