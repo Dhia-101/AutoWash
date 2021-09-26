@@ -1,0 +1,66 @@
+@media screen and (max-width: 1399px) {
+  .section-body {
+    width: 82%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .section-body {
+    width: 92%;
+    > :first-child {
+      width: 38%;
+    }
+    > :last-child {
+      width: 60%;
+    }
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  .section-body {
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    > :first-child {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    > :last-child {
+      width: 100%;
+      form {
+        flex-direction: column;
+        app-button {
+          margin-top: 10px;
+        }
+
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .section-body {
+
+    width: 90%;
+    > :first-child {
+
+
+      padding: 30px 15px;
+
+      h2 {
+        align-self: center;
+      }
+
+      .contact-info-box {
+        align-self: center;
+        > :first-child {
+          height: 50px;
+          width: 50px;
+        }
+      }
+    }
+
+  }
+}

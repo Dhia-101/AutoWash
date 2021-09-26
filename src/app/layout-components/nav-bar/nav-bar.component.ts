@@ -28,4 +28,6 @@ export class NavBarComponent {
     this.navbarState = window.scrollY <= 70 ? 'normal' : 'minimized';
   }
 
+// TODO: navbar height bug check
+
 }
