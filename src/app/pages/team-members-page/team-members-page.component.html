@@ -2,3 +2,57 @@
   title="Team Member"
   [items]="[{ label: 'home', link: '' }, { label: 'Team', link: '' }]"
 ></app-page-nav>
+<app-section-template title="Meet Our Team" description="Our Enginners & Workers">
+  <div class="staff-cards">
+    <app-person-card
+      [imgLink]="'team-2'"
+      [name]="'Donald John'"
+      [job]="'Worker'"
+      [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+    ></app-person-card>
+    <app-person-card
+      [imgLink]="'team-3'"
+      [name]="'Adam Philips'"
+      [job]="'Engineer'"
+      [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+    ></app-person-card>
+    <app-person-card
+      [imgLink]="'team-3'"
+      [name]="'Thomas Olsen'"
+      [job]="'Worker'"
+      [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+    ></app-person-card>
+    <app-person-card
+      [imgLink]="'team-2'"
+      [name]="'James Alien'"
+      [job]="'manager'"
+      [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+    ></app-person-card>
+  </div>
+  <div class="staff-cards">
+    <app-person-card
+      [imgLink]="'team-2'"
+      [name]="'Donald John'"
+      [job]="'Worker'"
+      [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+    ></app-person-card>
+    <app-person-card
+      [imgLink]="'team-3'"
+      [name]="'Adam Philips'"
+      [job]="'Engineer'"
+      [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+    ></app-person-card>
+    <app-person-card
+      [imgLink]="'team-3'"
+      [name]="'Thomas Olsen'"
+      [job]="'Worker'"
+      [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+    ></app-person-card>
+    <app-person-card
+      [imgLink]="'team-2'"
+      [name]="'James Alien'"
+      [job]="'manager'"
+      [socialMediaLinks]="{ twitter: 'linktest1', facebook: 'linktest2', linkedin: 'linktest3', instagram: 'linktest4' }"
+    ></app-person-card>
+  </div>
+</app-section-template>
