@@ -12,7 +12,7 @@ import {BlogGridPageComponent} from './pages/blog-grid-page/blog-grid-page.compo
 import {PricePageComponent} from './pages/price-page/price-page.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'service', component: ServicePageComponent },
   { path: 'price', component: PricePageComponent },
