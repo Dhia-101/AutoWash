@@ -2,3 +2,54 @@
   title="Booking"
   [items]="[{ label: 'home', link: '' }, { label: 'Booking', link: '' }]"
 ></app-page-nav>
+<section>
+  <div>
+    <p class="section-title">Washing Points</p>
+    <h2 class="section-description">Car Washing & Care Points</h2>
+    <!-- TODO: extract repeated section pattern when can   -->
+    <div class="locations-grid">
+      <div>
+        <i class="fa fa-map-marker-alt"></i>
+        <div>
+          <h3>Car Washing Point</h3>
+          <p>123 Street, New York, USA</p>
+          <p><Strong>Call: </Strong> +012 345 6789</p>
+        </div>
+      </div>
+      <div>
+        <i class="fa fa-map-marker-alt"></i>
+        <div>
+          <h3>Car Washing Point</h3>
+          <p>123 Street, New York, USA</p>
+          <p><Strong>Call: </Strong> +012 345 6789</p>
+        </div>
+      </div>
+      <div>
+        <i class="fa fa-map-marker-alt"></i>
+        <div>
+          <h3>Car Washing Point</h3>
+          <p>123 Street, New York, USA</p>
+          <p><Strong>Call: </Strong> +012 345 6789</p>
+        </div>
+      </div>
+      <div>
+        <i class="fa fa-map-marker-alt"></i>
+        <div>
+          <h3>Car Washing Point</h3>
+          <p>123 Street, New York, USA</p>
+          <p><Strong>Call: </Strong> +012 345 6789</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3>Request for a car wash</h3>
+    <form action="">
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Email">
+      <textarea placeholder="Description"></textarea>
+      <app-button>Send Request</app-button>
+      <!-- TODO: button background color to check -->
+    </form>
+  </div>
+</section>
