@@ -2,3 +2,14 @@
   title="Blog Grid"
   [items]="[{ label: 'home', link: '' }, { label: 'Blog', link: '' }]"
 ></app-page-nav>
+<app-section-template title="Our Blog" description="Latest News & Articles">
+  <div class="articles">
+    <app-article-card></app-article-card>
+    <app-article-card></app-article-card>
+    <app-article-card></app-article-card>
+    <app-article-card></app-article-card>
+    <app-article-card></app-article-card>
+    <app-article-card></app-article-card>
+  </div>
+  <app-pagination></app-pagination>
+</app-section-template>

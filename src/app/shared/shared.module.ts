@@ -9,6 +9,7 @@ import { PersonCardComponent } from './components/person-card/person-card.compon
 import { ArticleCardComponent } from './components/article-card/article-card.component';
 import { PageNavComponent } from './components/page-nav/page-nav.component';
 import { SectionTemplateComponent } from './template-components/section-template/section-template.component';
+import { PaginationComponent } from './components/pagination/pagination.component';
 
 
 @NgModule({
@@ -19,20 +20,22 @@ import { SectionTemplateComponent } from './template-components/section-template
     PersonCardComponent,
     ArticleCardComponent,
     PageNavComponent,
-    SectionTemplateComponent
+    SectionTemplateComponent,
+    PaginationComponent
   ],
   imports: [
     CommonModule,
     SharedRoutingModule
   ],
-  exports: [
-    ButtonComponent,
-    MilestoneCounterComponent,
-    PlanBoxComponent,
-    PersonCardComponent,
-    ArticleCardComponent,
-    PageNavComponent,
-    SectionTemplateComponent
-  ]
+    exports: [
+        ButtonComponent,
+        MilestoneCounterComponent,
+        PlanBoxComponent,
+        PersonCardComponent,
+        ArticleCardComponent,
+        PageNavComponent,
+        SectionTemplateComponent,
+        PaginationComponent
+    ]
 })
 export class SharedModule { }

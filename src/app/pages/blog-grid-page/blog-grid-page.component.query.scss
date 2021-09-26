@@ -1,0 +1,19 @@
+@media screen and (max-width: 1199px) {
+  .articles {
+    width: 100%;
+    > * {
+      width: 350px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .articles {
+    width: 100%;
+    flex-wrap: wrap;
+    > * {
+      width: 90%;
+    }
+  }
+}
+

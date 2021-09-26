@@ -1,0 +1,16 @@
+.articles {
+  width: 73%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0 0;
+
+  :last-child {
+    margin: 0;
+  }
+
+  > * {
+    margin: 0 10px;
+    width: 30%;
+  }
+}

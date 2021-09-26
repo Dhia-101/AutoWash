@@ -1,0 +1,43 @@
+.pag-body {
+  ul {
+    list-style-type: none;
+    display: flex;
+    li {
+      &:not(:last-child) {
+        a {
+          border-right: none;
+        }
+      }
+
+      a {
+
+        padding: 10px 11px;
+        border: 1px solid #202C45;
+        text-decoration: none;
+        color: #202C45;
+        height: 100%;
+        transition: 0.5s;
+        &.active {
+          background-color: #202C45;
+          color: #E81C2E;
+        }
+
+
+        &:hover {
+          background-color: #202C45;
+          color: #E81C2E;
+        }
+
+        &:focus {
+          box-shadow: 0 0 0 3px rgb(0 123 255 / 25%);
+          outline: 0;
+        }
+        &.disabled {
+          color: #999999;
+          pointer-events: none;
+        }
+
+      }
+    }
+  }
+}
