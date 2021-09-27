@@ -1,0 +1,49 @@
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.comment {
+  display: flex;
+  a {
+    color: #202C45;
+    text-decoration: none;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-right: 15px;
+  }
+
+  .meta-data {
+    h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      color: #666666;
+      margin-bottom: 10px;
+    }
+  }
+
+  .comment-text {
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 15px;
+  }
+
+  .reply-button {
+    background-color: #dddddd;
+    padding: 7px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+}
