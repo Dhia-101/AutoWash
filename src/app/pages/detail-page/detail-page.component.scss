@@ -24,6 +24,12 @@
       font-weight: 400;
       width: 98%;
     }
+    .tags-band {
+        margin: 30px 0 10px ;
+      > * {
+        margin-right: 7px;
+      }
+    }
   }
   .widgets {
     background-color: #202C45;
