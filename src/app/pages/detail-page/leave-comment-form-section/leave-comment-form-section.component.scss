@@ -1,0 +1,33 @@
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 40px 0 12px;
+}
+
+form {
+  background-color: #f3f6ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+  border-radius: 5px;
+  margin: 40px 0;
+
+  .comment-input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0;
+    width: 82%;
+    > * {
+      margin: 2px 0;
+      width: 100%;
+    }
+
+    // to continue form style ...
+
+    app-button {
+      width: 200px;
+    }
+  }
+
+}

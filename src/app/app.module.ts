@@ -32,6 +32,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 import { BlogGridPageComponent } from './pages/blog-grid-page/blog-grid-page.component';
 import { RelatedPostCarouselComponent } from './pages/detail-page/related-post-carousel/related-post-carousel.component';
 import { CommentsSectionComponent } from './pages/detail-page/comments-section/comments-section.component';
+import { LeaveCommentFormSectionComponent } from './pages/detail-page/leave-comment-form-section/leave-comment-form-section.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { CommentsSectionComponent } from './pages/detail-page/comments-section/c
     ScheduleBookingPageComponent,
     ContactPageComponent,
     RelatedPostCarouselComponent,
-    CommentsSectionComponent
+    CommentsSectionComponent,
+    LeaveCommentFormSectionComponent
   ],
   imports: [
     BrowserModule,
