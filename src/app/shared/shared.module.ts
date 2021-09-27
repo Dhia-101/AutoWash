@@ -10,6 +10,7 @@ import { ArticleCardComponent } from './components/article-card/article-card.com
 import { PageNavComponent } from './components/page-nav/page-nav.component';
 import { SectionTemplateComponent } from './template-components/section-template/section-template.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
+import { TagComponent } from './components/tag/tag.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PaginationComponent } from './components/pagination/pagination.componen
     ArticleCardComponent,
     PageNavComponent,
     SectionTemplateComponent,
-    PaginationComponent
+    PaginationComponent,
+    TagComponent
   ],
   imports: [
     CommonModule,
@@ -35,7 +37,8 @@ import { PaginationComponent } from './components/pagination/pagination.componen
         ArticleCardComponent,
         PageNavComponent,
         SectionTemplateComponent,
-        PaginationComponent
+        PaginationComponent,
+        TagComponent
     ]
 })
 export class SharedModule { }

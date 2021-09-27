@@ -1,0 +1,32 @@
+.article-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px 60px;
+  width: 80%;
+  margin: auto;
+  height: fit-content;
+
+  .content {
+    width: 60%;
+    margin-right: 30px;
+    color: #202C45;
+    img {
+      border-radius: 5px;
+      width: 100%;
+      margin-bottom: 35px;
+    }
+    h1, h2, h3, h4 {
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+    p {
+      margin-bottom: 18px;
+      font-weight: 400;
+      width: 98%;
+    }
+  }
+  .widgets {
+    background-color: #202C45;
+    width: 30%;
+  }
+}
