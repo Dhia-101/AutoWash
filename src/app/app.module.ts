@@ -30,6 +30,7 @@ import { DetailPageComponent } from './pages/detail-page/detail-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { BlogGridPageComponent } from './pages/blog-grid-page/blog-grid-page.component';
+import { RelatedPostCarouselComponent } from './pages/detail-page/related-post-carousel/related-post-carousel.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { BlogGridPageComponent } from './pages/blog-grid-page/blog-grid-page.com
     DetailPageComponent,
     TeamMembersPageComponent,
     ScheduleBookingPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    RelatedPostCarouselComponent
   ],
   imports: [
     BrowserModule,
