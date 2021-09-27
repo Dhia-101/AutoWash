@@ -14,7 +14,7 @@ export class RelatedPostCarouselComponent implements OnInit {
     pullDrag: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 6000,
     dots: false,
     dotsEach: 1,
     navSpeed: 700,

@@ -94,29 +94,47 @@ body::-webkit-scrollbar {
         width: 80px;
         height: 80px;
         border-radius: 5px;
+        margin-right: 10px;
       }
-      .ng-star-inserted:last-child{
-        margin: 0 28px 0 15px;
-        h3 {
-          font-size: 18px;
-          font-weight: 700;
-          letter-spacing: 1px;
-          margin-bottom: 5px;
+
+      .slide-text {
+
+        > :first-child {
+          font-size: 17px;
+          font-weight: 500;
           color: #202C45;
+          display: block;
+          margin-bottom: 3px;
+          transition: 0.3s;
+
+          &:hover {
+            color: #E81C2E;
+          }
         }
-        h4 {
-          color: #777777;
-          font-size: 15px;
-          font-weight: 400;
-          font-style: italic;
-        }
-        p {
+
+        :last-child {
+          font-size: 14px;
           font-weight: 400;
           color: #444444;
-          font-size: 16px;
+          font-style: italic;
+          a {
+            margin: 0 1px;
+            font-size: 14px;
+            color: #777777;
+            transition: 0.3s;
+            font-style: normal;
 
+            &:hover {
+              color: #E81C2E;
+            }
+          }
+        }
+
+        a {
+          text-decoration: none;
         }
       }
+
     }
   }
 
