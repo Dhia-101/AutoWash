@@ -33,6 +33,10 @@ import { BlogGridPageComponent } from './pages/blog-grid-page/blog-grid-page.com
 import { RelatedPostCarouselComponent } from './pages/detail-page/related-post-carousel/related-post-carousel.component';
 import { CommentsSectionComponent } from './pages/detail-page/comments-section/comments-section.component';
 import { LeaveCommentFormSectionComponent } from './pages/detail-page/leave-comment-form-section/leave-comment-form-section.component';
+import { AuthorInfoWidgetComponent } from './pages/detail-page/widgets/author-info-widget/author-info-widget.component';
+import { SearchWidgetComponent } from './pages/detail-page/widgets/search-widget/search-widget.component';
+import { RecetPostWidgetComponent } from './pages/detail-page/widgets/recet-post-widget/recet-post-widget.component';
+import { TabSidebarComponent } from './pages/detail-page/widgets/tab-sidebar/tab-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +65,11 @@ import { LeaveCommentFormSectionComponent } from './pages/detail-page/leave-comm
     ContactPageComponent,
     RelatedPostCarouselComponent,
     CommentsSectionComponent,
-    LeaveCommentFormSectionComponent
+    LeaveCommentFormSectionComponent,
+    AuthorInfoWidgetComponent,
+    SearchWidgetComponent,
+    RecetPostWidgetComponent,
+    TabSidebarComponent
   ],
   imports: [
     BrowserModule,
