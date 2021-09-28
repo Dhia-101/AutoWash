@@ -1,7 +1,7 @@
 h2 {
   font-weight: 700;
   font-size: 30px;
-  margin: 40px 0 12px;
+  margin: 50px 0px 0;
 }
 
 form {
@@ -11,19 +11,38 @@ form {
   flex-direction: column;
   padding: 40px 0;
   border-radius: 5px;
-  margin: 40px 0;
+  margin: 37px 0;
 
   .comment-input-group {
     display: flex;
     flex-direction: column;
-    margin: 7px 0;
+    margin: 12px 0;
     width: 82%;
+
+    label {
+      font-weight: 400;
+      color: #444444;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+      border: 1px solid #FFFFFF;
+      border-radius: 5px;
+      padding: 5px 10px;
+      outline: none;
+
+      &:focus {
+        border-color: #E81C2E;
+      }
+    }
     > * {
       margin: 2px 0;
       width: 100%;
     }
 
-    // to continue form style ...
+
 
     app-button {
       width: 200px;
