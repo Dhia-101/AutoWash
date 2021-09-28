@@ -1,0 +1,37 @@
+.input-wrapper {
+  position: relative;
+  form {
+
+    input {
+      border: 1px solid #dddddd;
+      height: 50px;
+      border-radius: 5px;
+      width: 100%;
+      padding: 10px 15px;
+      outline: none;
+      transition: 0.5s;
+      color: #495057;
+
+      &:focus {
+        border-color: #E81C2E;
+      }
+    }
+    button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+      background-color: transparent;
+      border: none;
+      i {
+        color: #202C45;
+        font-size: 25px;
+        transition: 0.3s;
+
+        &:hover {
+          color: #E81C2E;
+        }
+      }
+    }
+  }
+}

@@ -35,6 +35,11 @@
   .widgets {
     width: 28%;
     border: #202C45 1px solid;
+
+    > * {
+      display: block;
+      margin-bottom: 15px;
+    }
   }
 }
 
