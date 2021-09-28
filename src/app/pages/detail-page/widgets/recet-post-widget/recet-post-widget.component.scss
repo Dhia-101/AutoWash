@@ -1,0 +1,43 @@
+h2 {
+  color: #202C45;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+
+  &::after {
+    content: " ";
+    border: 1px solid #E81C2E;
+    display: block;
+    width: 60px;
+  }
+}
+
+.post-item {
+  display: flex;
+  margin: 10px 0;
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    border-radius: 5px;
+    margin-right: 7px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .post-text {
+    // to conitnue here
+    a {
+      font-size: 17px;
+      color: #202C45;
+      font-weight: 500;
+    }
+    p {
+
+    font-size: 16px;
+    }
+  }
+
+}
