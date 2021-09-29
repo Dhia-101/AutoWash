@@ -24,7 +24,7 @@
     width: 70%;
     .grid-item {
       margin: 0;
-      width: 70%;
+      width: 80%;
 
       h3 {
         margin: 5px 0;
@@ -42,9 +42,10 @@
 
 @media screen and (max-width: 767px) {
   .grid-container {
-    grid-template: repeat(8, 200px) / repeat(1, 70%);
+    grid-template: repeat(8, 230px) / repeat(1, 100%);
     justify-content: center;
     margin: 10px 0;
+
   }
 }
 
