@@ -35,7 +35,7 @@ import { CommentsSectionComponent } from './pages/detail-page/comments-section/c
 import { LeaveCommentFormSectionComponent } from './pages/detail-page/leave-comment-form-section/leave-comment-form-section.component';
 import { AuthorInfoWidgetComponent } from './pages/detail-page/widgets/author-info-widget/author-info-widget.component';
 import { SearchWidgetComponent } from './pages/detail-page/widgets/search-widget/search-widget.component';
-import { RecetPostWidgetComponent } from './pages/detail-page/widgets/recet-post-widget/recet-post-widget.component';
+import { RecentPostWidgetComponent } from './pages/detail-page/widgets/recent-post-widget/recent-post-widget.component';
 import { TabSidebarComponent } from './pages/detail-page/widgets/tab-sidebar/tab-sidebar.component';
 import { ImageWidgetComponent } from './pages/detail-page/widgets/image-widget/image-widget.component';
 import { CategoriesWidgetComponent } from './pages/detail-page/widgets/categories-widget/categories-widget.component';
@@ -72,7 +72,7 @@ import { TextWidgetComponent } from './pages/detail-page/widgets/text-widget/tex
     LeaveCommentFormSectionComponent,
     AuthorInfoWidgetComponent,
     SearchWidgetComponent,
-    RecetPostWidgetComponent,
+    RecentPostWidgetComponent,
     TabSidebarComponent,
     ImageWidgetComponent,
     CategoriesWidgetComponent,

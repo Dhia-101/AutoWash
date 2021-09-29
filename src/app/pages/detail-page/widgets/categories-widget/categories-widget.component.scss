@@ -1,0 +1,20 @@
+h2 {
+  color: #202C45;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+  &::after {
+    content: " ";
+    border: 1px solid #E81C2E;
+    display: block;
+    width: 60px;
+    margin-top: 3px;
+  }
+}
+
+.items {
+  ul {
+    list-style-type: none;
+  }
+}
