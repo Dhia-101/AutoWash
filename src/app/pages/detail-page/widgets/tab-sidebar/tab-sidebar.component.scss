@@ -27,6 +27,14 @@ nav {
   }
 }
 
+.tabs {
+  position: relative;
+  height: 460px;
+  .tab-item {
+    position: absolute;
+  }
+}
+
 .post-item {
   display: flex;
   margin: 5px 0;

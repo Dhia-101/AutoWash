@@ -1,7 +1,7 @@
 <nav class="nav">
-  <a class="nav-link" [class.active]="selectedTab === 1" (click)="ChangeTab(1)">Link</a>
-  <a class="nav-link" [class.active]="selectedTab === 2" (click)="ChangeTab(2)">Link</a>
-  <a class="nav-link" [class.active]="selectedTab === 3" (click)="ChangeTab(3)">Link</a>
+  <a class="nav-link" [class.active]="selectedTab === 1" (click)="ChangeTab(1)">Featured</a>
+  <a class="nav-link" [class.active]="selectedTab === 2" (click)="ChangeTab(2)">Popular</a>
+  <a class="nav-link" [class.active]="selectedTab === 3" (click)="ChangeTab(3)">Latest</a>
 </nav>
 <div class="tabs">
   <div class="tab-item" *ngIf="selectedTab === 1" @tabBodyAnimation>

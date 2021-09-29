@@ -16,5 +16,9 @@ h2 {
 .items {
   ul {
     list-style-type: none;
+    padding: 0;
+    a {
+      text-decoration: none;
+    }
   }
 }
