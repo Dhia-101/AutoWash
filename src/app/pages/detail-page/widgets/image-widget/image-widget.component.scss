@@ -1,0 +1,12 @@
+.img-wrapper {
+  margin: 20px 0;
+  overflow: hidden;
+  border-radius: 5px;
+  img {
+    width: 100%;
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

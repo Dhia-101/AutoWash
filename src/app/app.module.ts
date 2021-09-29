@@ -37,6 +37,7 @@ import { AuthorInfoWidgetComponent } from './pages/detail-page/widgets/author-in
 import { SearchWidgetComponent } from './pages/detail-page/widgets/search-widget/search-widget.component';
 import { RecetPostWidgetComponent } from './pages/detail-page/widgets/recet-post-widget/recet-post-widget.component';
 import { TabSidebarComponent } from './pages/detail-page/widgets/tab-sidebar/tab-sidebar.component';
+import { ImageWidgetComponent } from './pages/detail-page/widgets/image-widget/image-widget.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { TabSidebarComponent } from './pages/detail-page/widgets/tab-sidebar/tab
     AuthorInfoWidgetComponent,
     SearchWidgetComponent,
     RecetPostWidgetComponent,
-    TabSidebarComponent
+    TabSidebarComponent,
+    ImageWidgetComponent
   ],
   imports: [
     BrowserModule,
