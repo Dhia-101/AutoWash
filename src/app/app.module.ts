@@ -38,6 +38,9 @@ import { SearchWidgetComponent } from './pages/detail-page/widgets/search-widget
 import { RecetPostWidgetComponent } from './pages/detail-page/widgets/recet-post-widget/recet-post-widget.component';
 import { TabSidebarComponent } from './pages/detail-page/widgets/tab-sidebar/tab-sidebar.component';
 import { ImageWidgetComponent } from './pages/detail-page/widgets/image-widget/image-widget.component';
+import { CategoriesWidgetComponent } from './pages/detail-page/widgets/categories-widget/categories-widget.component';
+import { TagsCloudWidgetComponent } from './pages/detail-page/widgets/tags-cloud-widget/tags-cloud-widget.component';
+import { TextWidgetComponent } from './pages/detail-page/widgets/text-widget/text-widget.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +74,10 @@ import { ImageWidgetComponent } from './pages/detail-page/widgets/image-widget/i
     SearchWidgetComponent,
     RecetPostWidgetComponent,
     TabSidebarComponent,
-    ImageWidgetComponent
+    ImageWidgetComponent,
+    CategoriesWidgetComponent,
+    TagsCloudWidgetComponent,
+    TextWidgetComponent
   ],
   imports: [
     BrowserModule,
