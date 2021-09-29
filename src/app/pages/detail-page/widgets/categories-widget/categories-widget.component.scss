@@ -16,9 +16,41 @@ h2 {
 .items {
   ul {
     list-style-type: none;
+    margin: 10px 0;
     padding: 0;
+
+    li {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+    }
+
+    li::before {
+      content: '\f105';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      font-size: 20px;
+      color: #E81C2E;
+      position: absolute;
+      top: 3px;
+    }
     a {
+      font-weight: 500;
+      color: #202C45;
+      letter-spacing: 1px;
       text-decoration: none;
+      margin-left: 20px;
+      transition: 0.3s;
+      line-height: 35px;
+      &:hover {
+        color: #E81C2E;
+      }
+    }
+
+    span {
+      color: #444444;
+      font-weight: 400;
+      font-size: 15px;
     }
   }
 }
